@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Program to output a system information page
-title="System Information Report"
+TITTLE="System Information Report for $HOSTNAME"
 
 # Program to output a system information page
 echo "<html>
 <head>
-<title>$title</title>
+<title>$TITTLE</title>
 </head>
 <body>
-<h1>$title</h1>
+<h1>$TITTLE</h1>
 </body>
 </html>"
